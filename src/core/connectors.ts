@@ -8,6 +8,12 @@ export interface ConnectorMeta {
 
 export default <ConnectorMeta[]>[
 	{
+		label: 'Gensokyo Radio',
+		matches: ['*://gensokyoradio.net/playing/'],
+		js: 'gensokyoradio.js',
+		id: 'gensokyoradio',
+	},
+	{
 		label: 'YouTube',
 		matches: ['*://www.youtube.com/*'],
 		js: 'youtube.js',
